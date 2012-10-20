@@ -1,0 +1,51 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    aws (0.100.2)
+    build-essential (1.1.2)
+    database (1.3.4)
+      aws (>= 0.0.0)
+      mysql (>= 1.3.0)
+      postgresql (>= 1.0.0)
+      xfs (>= 0.0.0)
+    dmg (1.0.0)
+    emacs (0.8.2)
+    git (1.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    mercurial (0.8.0)
+    mysql (1.3.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    nano (1.0.0)
+    openssl (1.0.0)
+    postgresql (1.0.0)
+      openssl (>= 0.0.0)
+    runit (0.15.0)
+    vim (1.0.2)
+    xfs (1.0.0)
+    yum (1.0.0)
+
+GIT
+  remote: https://github.com/CXInc/chef-redis.git
+  ref: master
+  sha: 36a94382d77da8dae282b3be46feddf40d2ac568
+  specs:
+    redis (1.0.2)
+      build-essential (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+
+DEPENDENCIES
+  build-essential (>= 0)
+  database (>= 0)
+  emacs (>= 0)
+  git (>= 0)
+  mercurial (>= 0)
+  nano (>= 0)
+  postgresql (>= 0)
+  redis (>= 0)
+  vim (>= 0)
+
